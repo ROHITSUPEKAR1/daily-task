@@ -1,0 +1,44 @@
+*{
+    background-color: aqua;
+}
+.rohit{
+    color: blueviolet;
+}
+#abc{
+
+   text-align: center;
+    background-color: cornflowerblue;
+    font-size: large;
+    font-weight: 700;
+
+}
+.xyz{
+    color: brown;
+    text-align: justify;
+    font-size: large;
+
+   
+
+}
+.abc{
+    background-color: aqua;
+    border: 2px dotted blue;
+    border-top: 2 solid orange;
+}
+.border h2{
+    border-width: 1px;
+    border-style:double ;
+    background-color: chocolate;
+
+    
+}
+.class{
+    height: 300px;
+    width: 300px;
+    border-top: 9px double blueviolet;
+    border-right: 10px dashed lightcoral;
+    border-right: 5px ridge lightgreen;
+    border-left: 12px inset lightgrey;
+    text-align: center;
+
+}
