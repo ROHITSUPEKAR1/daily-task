@@ -1,0 +1,53 @@
+    .navigation{
+        height: 30px;
+        width: 2000px;
+        background-color: aliceblue;
+        justify-content: space-between;
+        flex-direction: row;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+    div{
+        display: flex;
+    }
+    .navigations{
+        background-color: aliceblue;
+        justify-content: space-between;
+        flex-direction: row;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+
+
+    }
+    ul{
+        display: flex;
+        height: 30px;
+        width:1800px;
+        background-color: aliceblue;
+        justify-content: space-between;
+        flex-direction: row;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        align-items: center;
+        
+    }
+    img{
+        height: 35px;
+        width: 47px;
+    }
+    .para{
+        background-color: lightskyblue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700px;
+    }
+   .store{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font: size 500px;
+        display: flex;  
+        justify-content: flex-start ;
+        color: gray;
+   }
