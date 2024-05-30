@@ -1,53 +1,81 @@
-    .navigation{
-        height: 30px;
-        width: 2000px;
-        background-color: aliceblue;
-        justify-content: space-between;
-        flex-direction: row;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 20px;
-    }
-    div{
-        display: flex;
-    }
-    .navigations{
-        background-color: aliceblue;
-        justify-content: space-between;
-        flex-direction: row;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 20px;
+  
+#tt{
+   height: 35px;
+   width: 47px;
+  
+}
+   
+.back{
+   height:50px ;
+   width: 2000px;
+   background-color: aliceblue;
+}
+ul{
+   margin-left: 270px;
+   height: 50px;
+   width: 2000px;
+   background-color:aliceblue;
+   font-size: 22px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+}
+.emi{
+   height: 40px;
+   width: 2000px;
+   background-color: antiquewhite;
 
+}
+p{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 22px;
+}
 
-    }
-    ul{
-        display: flex;
-        height: 30px;
-        width:1800px;
-        background-color: aliceblue;
-        justify-content: space-between;
-        flex-direction: row;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 20px;
-        align-items: center;
-        
-    }
-    img{
-        height: 35px;
-        width: 47px;
-    }
-    .para{
-        background-color: lightskyblue;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-weight: 700px;
-    }
-   .store{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font: size 500px;
-        display: flex;  
-        justify-content: flex-start ;
-        color: gray;
-   }
+.store{
+   height: 200px;
+   width: 2000px;
+   background-color: aliceblue;
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+   font-size: 70px;    
+   
+}
+.s{
+   height: 200px;
+   width: 2000px;
+   font-size: 30px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+   color: rgba(192, 192, 192, 0.801);
+}
+
+.side{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   font-size: 23px;
+}
+.side #specialist{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.we{
+   height: 300px;
+   width: 600px;
+   display: flex;
+   flex-direction: column;
+  justify-content: center;
+   
+}
+.sp{
+   height: 35px;
+   width: 45px;
+   font-size: 23px;
+}
