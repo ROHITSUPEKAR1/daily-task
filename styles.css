@@ -1,75 +1,116 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-        
 }
-html,body{
+
+html body {
     height: 100%;
     width: 100%;
-
 }
-.wrapper{
-    height:100%;
-    width: 100;
-   /* background-color:lightblue;*/
 
-}
-.navigation{
-    height:70px;
+.wrapper {
+    height: 100%;
     width: 100%;
-    /*background-color: blue;*/
-    display: flex;
-
 }
-.left-nav{
-    height:100%;
-    width: 40%;
-    /*background-color: darkred;*/
+
+.navigation {
+    height: 2000px;
+    width: 100%;
+    background-color: blue;
     display: flex;
-    justify-content: center;
     align-items: center;
     justify-content: space-evenly;
+}
 
-}
-.left-nav a{
-    text-decoration: none;
-    font-size: 17px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    color: black;
-}
-.mid-nav{
-    height: 100%;
-    width: 30%;
-    /*background-color: darkorange;*/
+.white-div {
+    height: 1000px;
+    width: 20%;
+    background-color: red;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    
+    justify-content: space-evenly;
 }
-.mid-nav h2{
-    font-size: 2vw;
-    color: black;
-    font-family:cursive;
 
-}
-.right-nav{
-    height: 100%;
-    width: 30%;
-   /* background-color: darkgreen;*/
+.A {
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+}
 
+.upper {
+    height: 250px;
+    width: 100%;
+    background-color: aqua;
+}
+
+.mid {
+    height: 250px;
+    width: 100%;
+    background-color: aqua;
+}
+
+.lower {
+    height: 250px;
+    width: 100%;
+    background-color: aqua;
+}
+
+.white-div img {
+    height: 250px;
+    width: 100%;
+}
+
+.white1-div {
+    height: 1700px;
+    width: 20%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
 
 }
-.right-nav div{
-    height: 4vh;
-    width: 4vh;
-    border-radius: 50%;
-    background-color: lightpink;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.A {
+    height: 50px;
+    width: 100%;
+
+}
+
+
+.black-div {
+    height: 1700px;
+    width: 20%;
+    background-color: red;
+
+}
+
+
+.black1-div {
+    height: 1000px;
+    width: 20%;
+    background-color: red;
+}
+
+
+.div1 {
+    height: 200px;
+    width: 100%;
+    background-color: aqua;
+}
+
+.div1 {
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+}
+
+.div1 {
+    height: 1200px;
+    width: 100%;
+    background-color: aqua;
+}
+
+.div1 {
+    height: 200px;
+    width: 100%;
+    background-color: aqua;
 }
