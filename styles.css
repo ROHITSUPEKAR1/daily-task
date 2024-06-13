@@ -4,113 +4,104 @@
     box-sizing: border-box;
 }
 
-html body {
+html,
+body {
     height: 100%;
     width: 100%;
+
 }
 
 .wrapper {
     height: 100%;
     width: 100%;
+    background-color: aqua;
 }
 
-.navigation {
-    height: 2000px;
+.nav {
+    height: 10%;
     width: 100%;
+    background-color: darkred;
+    display: flex;
+    align-items: center;
+}
+
+.leftnav {
+    height: 100%;
+    width: 20%;
     background-color: blue;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
 }
 
-.white-div {
-    height: 1000px;
-    width: 20%;
-    background-color: red;
+.midnav {
+    height: 100%;
+    width: 70%;
+    background-color: darkgreen;
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.midnav h3{
+        font-size: 1.5vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+    
+}
+
+.rightnav {
+    height: 100%;
+    width: 10%;
+    background-color: blueviolet;
+    align-items: center;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    justify-content: space-evenly;
 }
-
-.A {
-    display: flex;
-}
-
-.upper {
-    height: 250px;
-    width: 100%;
-    background-color: aqua;
-}
-
-.mid {
-    height: 250px;
-    width: 100%;
-    background-color: aqua;
-}
-
-.lower {
-    height: 250px;
-    width: 100%;
-    background-color: aqua;
-}
-
-.white-div img {
-    height: 250px;
-    width: 100%;
-}
-
-.white1-div {
-    height: 1700px;
-    width: 20%;
-    background-color: red;
-    display: flex;
-    flex-direction: column;
-
-}
-
-.A {
-    height: 50px;
-    width: 100%;
-
+.rightnav h1{
+    
 }
 
 
-.black-div {
-    height: 1700px;
-    width: 20%;
-    background-color: red;
-
+.leftnav h1 {
+   color: white;
+    font-family: serif;
 }
 
+.leftnav span {
 
-.black1-div {
-    height: 1000px;
-    width: 20%;
-    background-color: red;
+    color: lightsalmon;
 }
-
-
-.div1 {
-    height: 200px;
-    width: 100%;
-    background-color: aqua;
+.banner{
+  height: 500px;
+  width: 100%;
+  background-color: darkmagenta;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
 }
-
-.div1 {
+.upper{
     height: 100px;
-    width: 100%;
-    background-color: aqua;
-}
+    width: 30%;
+    background-color: darkorange;
+display: flex;
+justify-content: center;
+align-items: center;
 
-.div1 {
-    height: 1200px;
-    width: 100%;
-    background-color: aqua;
 }
+.upper H3{
+    height: 1vw;
+}
+.mid{
+    width: 60%;
+    height: 100px;
+    background-color: darkred;
 
-.div1 {
-    height: 200px;
-    width: 100%;
-    background-color: aqua;
+
+}
+.low{
+    height: 100px;
+    width: 20%;
+    background-color: darkseagreen;
 }
